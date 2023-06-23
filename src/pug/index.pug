@@ -43,6 +43,8 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#projects') Projetos
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Competências
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#certifications') Certificados
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#languages') Idiomas
@@ -64,7 +66,7 @@ html(lang='en')
                     p.lead.mb-4
                         | Sou um <b>Engenheiro de Software</b> com experiência sólida na construção de soluções de sistemas como Apis, Workers, Scripts, e manutenção de sistemas legados.
                     p.lead.mb-5
-                        | Também atuo como <b>Consultor Salesforce</b> arquitetando soluções e integrando com demais sistemas como CRMs, ERPs e etc.
+                        | Também atuo como <b>Consultor Salesforce</b>, desde 2017, arquitetando soluções e integrando com demais sistemas como CRMs, ERPs e etc.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/guilherme-m-786581101/')
                             i.fab.fa-linkedin-in
@@ -189,6 +191,41 @@ html(lang='en')
                             span.text-primary Fevereiro 2018 - Janeiro 2020
 
             hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Competências
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Salesforce
+                            ul.fa-ul.mb-0
+                                li
+                                    span.fa-li
+                                        i.fas.fa-cloud.text-info
+                                    | <b>Nuvens</b>: Sales Cloud, Service Cloud, Community Cloud
+                                li
+                                    span.fa-li
+                                        i.fas.fa-computer.text-info
+                                    | <b>Apex</b>: Triggers, Batches, Schedulers, LWC, Aura, Visualforce Pages
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Programação
+                            ul.fa-ul.mb-0
+                                li
+                                    span.fa-li
+                                        i.fas.fa-computer.text-info
+                                    | <b>Linguagens</b>: Javascript, NodeJS, Typescript, Java, .NET, Ṕython
+                                li
+                                    span.fa-li
+                                        i.fas.fa-tower-broadcast.text-info
+                                    | <b>Mensageria</b>: Kafka, SQS, RabbitMQ
+                                li
+                                    span.fa-li
+                                        i.fas.fa-book.text-info
+                                    | <b>Outros</b>: Docker, Kubernetes, CI/CD, GitHub
 
             // certifications
             section#certifications.resume-section
